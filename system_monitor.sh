@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Linux System Monitoring Script
+ Linux System Monitoring Script
 
 REPORT_DIR="reports"
 REPORT_FILE="$REPORT_DIR/system_report_$(date +%Y%m%d_%H%M%S).log"
