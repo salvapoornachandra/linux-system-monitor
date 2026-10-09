@@ -1,6 +1,6 @@
 #!/bin/bash
 
- Linux System Monitoring Script
+#Linux System Monitoring Script
 
 REPORT_DIR="reports"
 REPORT_FILE="$REPORT_DIR/system_report_$(date +%Y%m%d_%H%M%S).log"
@@ -13,7 +13,7 @@ mkdir -p "$REPORT_DIR"
 
 exec > "$REPORT_FILE" 2>&1
 
-echo "       LINUX SYSTEM MONITOR"
+echo "LINUX SYSTEM MONITOR"
 
 echo
 echo "Date and Time:"
@@ -113,7 +113,7 @@ else
 fi
 
 echo
-echo "       MONITORING COMPLETED"
+echo "MONITORING COMPLETED"
 echo
 echo "Report saved to:"
 echo "$REPORT_FILE"
