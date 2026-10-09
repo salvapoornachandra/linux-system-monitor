@@ -48,3 +48,16 @@ Give execute permission:
 
 ```bash
 chmod +x system_monitor.sh
+## Sample Monitoring Report
+
+### Screenshot 1 — System Monitoring
+
+![System Monitoring](Screenshot%202026-10-09%20080206.png)
+
+### Screenshot 2 — Resource Usage
+
+![Resource Usage](Screenshot%202026-10-09%20080230.png)
+
+### Screenshot 3 — Processes and Service Status
+
+![Processes and Service Status](Screenshot%202026-10-09%20080248.png)
