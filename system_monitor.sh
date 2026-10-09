@@ -11,7 +11,7 @@ DISK_THRESHOLD=80
 
 mkdir -p "$REPORT_DIR"
 
-exec > "$REPORT_FILE" 2>&1
+exec > >(tee "$REPORT_FILE") 2>&1
 
 echo "LINUX SYSTEM MONITOR"
 
